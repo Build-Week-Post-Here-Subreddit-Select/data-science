@@ -12,7 +12,6 @@ def create_app():
     @app.route('/')
     def root():
         return 'Generic Return'
-    return app
 
     @app.route('/predict', methods=['POST'])
     def predict_sub():
