@@ -7,13 +7,13 @@ verify_ssl = true
 
 [packages]
 flask = "*"
-flask-sqlalchemy = "*"
-flask-migrate = "*"
 requests = "*"
 praw = "*"
 pandas = "*"
 numpy = "*"
 flask-cors = "*"
+jupyter = "*"
+sklearn = "*"
 
 [requires]
 python_version = "3.8"
