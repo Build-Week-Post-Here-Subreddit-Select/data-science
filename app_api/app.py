@@ -11,9 +11,9 @@ def create_app():
     def root():
         return 'Generic Return'
 
-    # @app.route('/predict', methods=['POST'])
-    # def predict_sub():
+    @app.route('/predict', methods=['POST'])
+    def predict_sub():
 
-    #     return(json.dumps({'input':'test', 'predict':'r/AdviceAnimals'}))
+        return(json.dumps({'input':'test', 'predict':'r/AdviceAnimals'}))
 
     return app
